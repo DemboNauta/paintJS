@@ -12,12 +12,19 @@
   Selector de Color: Permite elegir el color con el que se dibuja.
   Cuentagotas: Captura y utiliza cualquier color presente en el lienzo.
   Limpiar Lienzo: Limpia todo el contenido del lienzo para empezar desde cero.
+  
 ## Tecnologías Utilizadas
+
   HTML5: Se utiliza para estructurar la interfaz de usuario, incluyendo el lienzo donde se realizan los dibujos.
+  
   CSS3: Se encarga del estilo visual de la aplicación, utilizando técnicas como el modelo de cajas, el sistema de grid, y la pseudoclase :hover para interacciones con los botones.
+  
   JavaScript (ES6+): Controla la lógica del lienzo y las interacciones del usuario con las herramientas de dibujo. Se emplea el contexto 2D del elemento <canvas> para las operaciones de dibujo.
+  
   Canvas API: Proporciona las herramientas necesarias para dibujar, borrar, y manipular gráficos en el lienzo.
+  
   EyeDropper API: Una API nativa de JavaScript utilizada para implementar la funcionalidad de cuentagotas que permite capturar colores desde el lienzo.
+  
 ## Estructura del Proyecto
   index.html: El archivo HTML principal que contiene la estructura de la aplicación.
   styles.css: Define los estilos y diseño visual de la aplicación.
